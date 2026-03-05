@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "HTB new UI lesson fix",
+  "version": "1.0",
+  "description": "Fixes the narrow lesson card and improves text/background contrast",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
