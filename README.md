@@ -4,8 +4,7 @@ As of 6 March 2026, HTB updated their UI, and it does not look the best as of no
 This is a firefox add-on that fixes the narrow lesson card and improve text/background contrast on the new hackthebox UI.
 
 ### Try it now (dosen't survive refreshes)
-Open the inspector tab on the lesson page, go to console, and paste in this style code: ``` css
-document.head.appendChild(document.createElement('style')).innerHTML='div[class*="max-w-"]{max-width:100%!important;width:100%!important;} p, span, div, h1, h2, h3, h4, h5, h6, li, a, .text-secondary, .text-primary { color: #E0E0E0 !important; } .text-secondary { color: #D0D0D0 !important; }';```
+Open the inspector tab on the lesson page, go to console, and paste in this style code: ```document.head.appendChild(document.createElement('style')).innerHTML='div[class*="max-w-"]{max-width:100%!important;width:100%!important;} p, span, div, h1, h2, h3, h4, h5, h6, li, a, .text-secondary, .text-primary { color: #E0E0E0 !important; } .text-secondary { color: #D0D0D0 !important; }';```
 
 
 ### Steps to install the add-on:
