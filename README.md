@@ -6,6 +6,7 @@ This is a firefox add-on that fixes the narrow lesson card and improve text/back
 ### Try it now (dosen't survive refreshes)
 Open the inspector tab on the lesson page, go to console, and paste in this style code: ```document.head.appendChild(document.createElement('style')).innerHTML='div[class*="max-w-"]{max-width:100%!important;width:100%!important;} p, span, div, h1, h2, h3, h4, h5, h6, li, a, .text-secondary, .text-primary { color: #E0E0E0 !important; } .text-secondary { color: #D0D0D0 !important; }';```
 
+type in `allow pasting` if it dosen't allow pasting code in console.
 
 ### Steps to install the add-on:
 - Open extensions & themes in firefox.
