@@ -15,3 +15,12 @@ This is a firefox add-on that fixes the narrow lesson card and improve text/back
 - Select "Debug Add-on".
 - Select "Load Temporary Add-on".
 - Select the manifest.json file from the repo.
+
+Before:
+![WhatsApp Image 2026-03-05 at 11 53 08 PM](https://github.com/user-attachments/assets/2e174b26-9743-4a84-80c4-d38fbfb43f2f)
+
+After:
+![WhatsApp Image 2026-03-05 at 11 53 08 PM (1)](https://github.com/user-attachments/assets/3d67fc14-9e87-4086-b1d1-65d2b3a57631)
+
+Minimize the sections tab to view the full lesson, click on this:
+![WhatsApp Image 2026-03-05 at 11 53 08 PM (2)](https://github.com/user-attachments/assets/758a9968-562a-4ff5-a5a2-baee54f072af)
