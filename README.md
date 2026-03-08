@@ -10,16 +10,8 @@ type in `allow pasting` if it dosen't allow pasting code in console.
 
 ### Steps to install the add-on:
 - Open extensions & themes in firefox.
-- Search for "HTB new UI fixer". (if not found, use the temporary fix below)
+- Search for "HTB new UI fixer".
 - Install the add-on.
-
-### Temporary installation if the extension is not yet listed in firefox add-ons (survives refreshes only)
-- clone the repo `git clone https://github.com/gigachad0366/New-hackthebox-UI-fixer`.
-- Open extensions & themes in firefox.
-- Click on the gear icon.
-- Select "Debug Add-on".
-- Select "Load Temporary Add-on".
-- Select the manifest.json file from the repo.
 
 Before:
 ![WhatsApp Image 2026-03-05 at 11 53 08 PM](https://github.com/user-attachments/assets/2e174b26-9743-4a84-80c4-d38fbfb43f2f)
